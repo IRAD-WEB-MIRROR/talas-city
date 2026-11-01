@@ -1,4 +1,5 @@
-:root{--blue:#0b5c8a;--teal:#139c9c;--ink:#16232e;--mut:#5b6b78;--bg:#f3f6f8;--card:#fff;--line:#dfe6eb;--warn:#c9741a}
+/* Talas city brand 2024: navy, Talas teal, sun yellow */
+:root{--blue:#0e3a5c;--teal:#13a3a3;--sun:#f5b82e;--ink:#16232e;--mut:#5b6b78;--bg:#f3f6f8;--card:#fff;--line:#dfe6eb;--warn:#c9741a}
 *{box-sizing:border-box}
 html{background:var(--bg)}
 body{margin:0;font:16px/1.55 Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink)}
@@ -8,7 +9,8 @@ header.top{background:#fff;border-bottom:1px solid var(--line);position:sticky;t
 header.top .wrap{display:flex;align-items:center;gap:14px;height:68px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
 .brand img{width:40px;height:40px}
-.brand b{display:block;font-size:17px;line-height:1.1}
+.brand b{display:block;font-size:24px;line-height:1;font-weight:800;letter-spacing:-.04em;color:var(--blue)}
+.brand b i{font-style:normal;color:var(--teal)}
 .brand span{font-size:12px;color:var(--mut)}
 nav.main{margin-left:auto;display:flex;gap:4px;flex-wrap:wrap}
 nav.main a{padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--ink);font-size:14px;font-weight:500}
@@ -17,13 +19,15 @@ nav.main a:hover,nav.main a.on{background:#e8f2f8;color:var(--blue)}
 .lang a{padding:4px 7px;border-radius:6px;text-decoration:none;color:var(--mut)}
 .lang a.on{background:var(--blue);color:#fff}
 .burger{display:none;background:none;border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:18px}
-.hero{background:linear-gradient(120deg,rgba(11,92,138,.94),rgba(19,156,156,.78)),url(photos/Talas_River.jpg) center/cover;color:#fff;padding:42px 0 54px}
-.hero h1{margin:0 0 6px;font-size:34px;line-height:1.15}
+.hero{position:relative;background:linear-gradient(120deg,rgba(14,58,92,.95),rgba(19,163,163,.78)),url(photos/Talas_River.jpg) center/cover;color:#fff;padding:42px 0 54px}
+.hero h1{margin:0 0 6px;font-size:38px;line-height:1.1;font-weight:800;letter-spacing:-.03em}
+.hero h1 span{color:var(--sun)}
+.hero:after{content:"";position:absolute;left:0;right:0;bottom:0;height:26px;background:var(--bg);clip-path:polygon(0 100%,0 60%,8% 20%,14% 55%,22% 0,30% 50%,38% 25%,46% 70%,54% 10%,62% 55%,70% 30%,78% 65%,86% 15%,93% 50%,100% 35%,100% 100%)}
 .hero p{margin:0;opacity:.9;max-width:640px}
 .hero .search{margin-top:20px;display:flex;max-width:560px;background:#fff;border-radius:12px;overflow:hidden}
 .hero .search input{flex:1;border:0;padding:14px 16px;font:inherit;outline:0}
-.hero .search button{border:0;background:var(--ink);color:#fff;padding:0 18px;font:inherit;font-weight:600;cursor:pointer}
-.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin-top:-30px}
+.hero .search button{border:0;background:var(--sun);color:var(--ink);color:#fff;padding:0 18px;font:inherit;font-weight:600;cursor:pointer}
+.tiles{position:relative;z-index:1;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin-top:-30px}
 .tile{background:var(--card);border-radius:14px;padding:18px;text-decoration:none;color:var(--ink);box-shadow:0 2px 10px rgba(16,40,60,.08);display:block;transition:transform .15s}
 .tile:hover{transform:translateY(-2px)}
 .tile svg{width:30px;height:30px;color:var(--teal)}
@@ -46,7 +50,7 @@ h1.page{font-size:30px;margin:28px 0 6px}
 .mayor{display:flex;gap:14px;align-items:center}
 .mayor .ph{width:64px;height:64px;border-radius:50%;background:#dbe7ee;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--blue)}
 select,input[type=text]{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:#fff;min-width:240px;max-width:100%}
-.btn{background:var(--blue);color:#fff;border:0;border-radius:10px;padding:10px 18px;font:inherit;font-weight:600;cursor:pointer}
+.btn{background:var(--sun);color:var(--ink);color:#fff;border:0;border-radius:10px;padding:10px 18px;font:inherit;font-weight:600;cursor:pointer}
 .result{margin-top:16px}
 table.t{width:100%;border-collapse:collapse;font-size:15px}
 table.t th,table.t td{text-align:left;padding:10px;border-bottom:1px solid var(--line);vertical-align:top}

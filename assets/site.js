@@ -14,7 +14,7 @@ function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return
 var page=document.body.getAttribute('data-page');
 var nav=[['index.html','home'],['waste.html','waste'],['transport.html','bus'],['parking.html','park'],['heating.html','heat'],['council.html','council'],['about.html','about']];
 var h=document.getElementById('hdr');
-h.innerHTML='<div class="wrap"><a class="brand" href="index.html"><img src="assets/talas-mark.svg" alt=""><div><b>'+esc(u('city'))+'</b><span>'+esc(u('sub'))+'</span></div></a>'+
+h.innerHTML='<div class="wrap"><a class="brand" href="index.html"><img src="assets/talas-mark.svg" alt=""><div><b>talas<i>.</i></b><span>'+esc(u('city'))+'</span></div></a>'+
  '<button class="burger" aria-label="Menu">&#9776;</button><nav class="main">'+nav.map(function(n){return '<a href="'+n[0]+'"'+(page===n[1]?' class="on"':'')+'>'+esc(u(n[1]))+'</a>';}).join('')+'</nav>'+
  '<div class="lang">'+['ir','ru','en'].map(function(l){return '<a href="#" data-l="'+l+'"'+(l===lang?' class="on"':'')+'>'+l.toUpperCase()+'</a>';}).join('')+'</div></div>';
 h.querySelector('.burger').onclick=function(){h.querySelector('nav').classList.toggle('open');};
