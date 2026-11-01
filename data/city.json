@@ -1,0 +1,43 @@
+{
+  "districts": [
+    {"id": "old-city", "name": "Old City (Köhne Diz)", "days": [1, 4], "time": "06:30-09:00", "note": "Hand carts in the lanes; bags out by the gate, not in the street."},
+    {"id": "bazar", "name": "Bazar-i Kalan", "days": [0, 1, 2, 3, 4, 5, 6], "time": "21:00-23:00", "note": "Daily evening collection after the bazaar closes. Traders use the yellow containers."},
+    {"id": "shahr-i-kabud", "name": "Shahr-i Kabud", "days": [2, 5], "time": "07:00-10:00", "note": "Garden waste on Saturdays in October and November."},
+    {"id": "soviet-centre", "name": "Soviet Centre", "days": [1, 3, 5], "time": "06:00-08:30", "note": "Containers in the courtyards of the blocks."},
+    {"id": "central", "name": "Central Square and Liberty Boulevard", "days": [0, 1, 2, 3, 4, 5, 6], "time": "05:30-07:00", "note": "Daily early collection. Shops leave cardboard flat and tied."},
+    {"id": "western", "name": "Western Corridor", "days": [2, 4, 6], "time": "07:00-10:00", "note": ""},
+    {"id": "semiz", "name": "Semiz", "days": [1, 4], "time": "08:00-11:00", "note": "Blocks: courtyard containers. Courtyard houses: bags at the gate by 08:00."},
+    {"id": "cottonwood", "name": "Cottonwood Estates", "days": [3], "time": "08:00-12:00", "note": "Wheeled bins at the kerb. Recycling (blue bin) every other Wednesday."},
+    {"id": "alatau", "name": "Alatau Heights", "days": [3], "time": "09:00-12:00", "note": "Collected by the estate's own contractor under licence. Questions to the estate office."},
+    {"id": "north", "name": "Northern District", "days": [2, 5], "time": "06:30-09:30", "note": "Businesses in the Free Economic Trade Zone need their own contract."},
+    {"id": "south", "name": "Station District (south of the river)", "days": [1, 3, 5], "time": "07:00-10:00", "note": ""},
+    {"id": "outer", "name": "Outer districts (east and north-east)", "days": [2, 6], "time": "08:00-13:00", "note": "Where the truck cannot reach, use the collection point at the end of the paved road."}
+  ],
+  "routes": [
+    {"no": "1", "kind": "bus", "stops": ["Central Bus Station", "Central Square", "Liberty Boulevard", "City Hall", "Communications Square"], "every": 12},
+    {"no": "3", "kind": "m", "stops": ["Semiz", "Western Corridor", "Cold Storage", "Communications Square", "City Hall", "Central Square"], "every": 7},
+    {"no": "7", "kind": "m", "stops": ["Talas railway station", "Regional Hospital", "Central Square", "Bazar-i Kalan", "Central Bus Station"], "every": 6},
+    {"no": "9", "kind": "m", "stops": ["TSU", "Alikhan Media Center", "Central Square", "Soviet Centre", "Hippodrome"], "every": 8},
+    {"no": "14", "kind": "bus", "stops": ["Semiz", "Western Corridor", "City Hall", "Central Post Office", "Old City (Temir-Kapka)"], "every": 15},
+    {"no": "18", "kind": "m", "stops": ["Alatau Heights", "Soviet Centre", "Central Square", "Bazar-i Kalan", "Shahr-i Kabud"], "every": 10},
+    {"no": "22", "kind": "m", "stops": ["Air base strip", "Cottonwood Estates", "Trans-Talas Highway", "Central Square", "TSU"], "every": 9},
+    {"no": "27", "kind": "m", "stops": ["Northern District", "Customs terminal", "Central Bus Station", "Central Square", "Talas railway station"], "every": 10},
+    {"no": "31", "kind": "m", "stops": ["Communications Square", "Central Post Office", "Central Square", "Silk Road Arena", "Hippodrome"], "every": 11},
+    {"no": "40", "kind": "m", "stops": ["Bazar-i Kalan", "Kök-Bel road", "Shashlyk Kara-Suu", "eastern edge (Kök-Bel road)"], "every": 14},
+    {"no": "52", "kind": "m", "stops": ["TSU", "Regional Hospital", "City Hall", "Western Corridor", "Semiz"], "every": 12},
+    {"no": "66", "kind": "m", "stops": ["Talas railway station", "Station District", "TSU", "Alatau Heights"], "every": 15}
+  ],
+  "news": [
+    {"d": "2026-10-30", "t": "Leaf collection in the parks until 20 November", "x": "Leaves from courtyards can be left in bags beside the containers on collection days. Burning leaves in the city is not allowed."},
+    {"d": "2026-10-27", "t": "City Council meets on 12 November", "x": "On the agenda: the 2027 city budget (first reading), winter road maintenance and the marshrutka route licences for 2027. The session is open to the public."},
+    {"d": "2026-10-20", "t": "Liberty Boulevard winter lights from 1 December", "x": "The lights will be switched on at 18:00 on 1 December and stay on until the end of the New Year holidays."},
+    {"d": "2026-10-15", "t": "Heating season has started", "x": "Talas Jylu Tarmaktary began heating on 15 October. If your radiators are still cold, call 1-50 with your address."},
+    {"d": "2026-10-02", "t": "Snow-clearing plan approved", "x": "38 machines are ready for winter. Priority roads: the Trans-Talas Highway, Liberty Boulevard, the hospital and the bus station."}
+  ],
+  "council": [
+    {"d": "2026-10-15", "n": 41, "items": ["Heating season readiness (Talas Jylu Tarmaktary report)", "Parking zones on Liberty Boulevard: extension to the Central Post Office", "Naming of a new street in Semiz"]},
+    {"d": "2026-09-17", "n": 40, "items": ["City budget: report for the first half of 2026", "School repairs before 1 September (report)", "Talas Suu water metering programme"]},
+    {"d": "2026-07-09", "n": 39, "items": ["Summer water restrictions on the left bank", "Bazar-i Kalan stall rents for 2027", "Marshrutka route 40 extension"]},
+    {"d": "2026-05-21", "n": 38, "items": ["Spring cleaning results", "Trees on the Trans-Talas Highway: replanting plan", "Petition of the residents of Shahr-i Kabud on the irrigation ditches"]}
+  ]
+}
