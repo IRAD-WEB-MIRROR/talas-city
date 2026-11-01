@@ -72,3 +72,7 @@ footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr
   .hero h1{font-size:26px}
   select,input[type=text]{min-width:0;width:100%}
 }
+
+table.t td.nw{white-space:nowrap}
+.tw{overflow-x:auto}
+@media (max-width:600px){table.t th,table.t td{padding:8px 6px}}
