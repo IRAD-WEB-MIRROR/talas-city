@@ -23,7 +23,7 @@
     {"no": "22", "kind": "m", "stops": ["Air base strip", "Cottonwood Estates", "Trans-Talas Highway", "Central Square", "TSU"], "every": 9},
     {"no": "27", "kind": "m", "stops": ["Northern District", "Customs terminal", "Central Bus Station", "Central Square", "Talas railway station"], "every": 10},
     {"no": "31", "kind": "m", "stops": ["Communications Square", "Central Post Office", "Central Square", "Silk Road Arena", "Hippodrome"], "every": 11},
-    {"no": "40", "kind": "m", "stops": ["Bazar-i Kalan", "Kök-Bel road", "Shashlyk Kara-Suu", "eastern edge (Kök-Bel road)"], "every": 14},
+    {"no": "40", "kind": "m", "stops": ["Cottonwood Estates", "Cattle Mart", "Communications Square", "City Hall", "Bazar-i Kalan", "Kök-Bel road", "Shashlyk Kara-Suu", "eastern edge (Kök-Bel road)"], "every": 14},
     {"no": "52", "kind": "m", "stops": ["TSU", "Regional Hospital", "City Hall", "Western Corridor", "Semiz"], "every": 12},
     {"no": "66", "kind": "m", "stops": ["Talas railway station", "Station District", "TSU", "Alatau Heights"], "every": 15}
   ],
