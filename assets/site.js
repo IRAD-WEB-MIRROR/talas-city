@@ -7,7 +7,7 @@ var UI={
  ru:{news:'Новости',mayor:'Мэр',decisions:'Решения',departments:'Отделы',city:'Мэрия Таласа',sub:'Talas Shaar Meriyasy',home:'Главная',waste:'Вывоз мусора',bus:'Маршрутки',park:'Штрафы за парковку',heat:'Отопление',council:'Городской совет',about:'О мэрии',
   foot1:'Мэрия города Талас',foot2:'Приём: Пн-Пт 9:00-18:00, Сб 9:00-13:00',foot3:'Городская служба 1-09 (круглосуточно)'}
 };
-var lang='en';try{lang=new URLSearchParams(location.search).get('lang')||localStorage.getItem('talas_lang')||'en';}catch(e){}
+var lang='en';try{lang=new URLSearchParams(location.search).get('lang')||localStorage.getItem('talas_lang')||'ir';}catch(e){lang='ir';}
 if(!UI[lang])lang='en';
 function u(k){return UI[lang][k]||UI.en[k];}
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}

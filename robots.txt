@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+# old Joomla site, kept until the archive is moved
+Disallow: /old/
 Sitemap: https://talas.iradgov.org/sitemap.xml
